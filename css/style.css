@@ -4,13 +4,21 @@
 }
 .cards{
 	border-radius: 22px;
-	transition: all 1.5s ease;
+	transition:all 1.5s ease;
 }
 .cards:hover{
 	transform: scale(1.2);
 }
 .hot-card{
-	background-image: url(/images/images/card-bg.jpg); 
+
+	background-image: url(/images/images/Bridal\ Brunch\ Shower\ Invitation\ with\ Succulents\ and\ Eucalyptus\ \(2\).jfif); 
+	background-repeat: no-repeat;
+	background-size: 310px;
+}
+.card-font{
+	color: white;
+	-webkit-text-fill-color: black;
+	-webkit-text-stroke-width: 1px;
 }
 ul li{
 	list-style: none;
@@ -39,3 +47,15 @@ footer img{
 	padding: 0px;
 	margin: 0px;
 }
+
+
+@media only screen and (max-width: 600px) {
+	.banner img{
+		width: 360px;
+		height: 300px;;
+	}
+	.hot-card{
+		background-size:560px;
+	}
+}
+
