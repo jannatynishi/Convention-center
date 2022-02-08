@@ -1,0 +1,41 @@
+.banner img{
+	width: 1440px;
+	height: 540px;
+}
+.cards{
+	border-radius: 22px;
+	transition: all 1.5s ease;
+}
+.cards:hover{
+	transform: scale(1.2);
+}
+.hot-card{
+	background-image: url(/images/images/card-bg.jpg); 
+}
+ul li{
+	list-style: none;
+}
+.li-button{
+	border-radius: 20px;
+	background-color: black;
+}
+.bi-arrow-right-circle-fill{
+color: rgb(238, 221, 135);
+}
+footer img{
+	width: 145px;
+}
+.happy-client img{
+	width: 100px;
+}
+.client{
+	opacity: 0;
+}
+.happy-client:hover .client{
+	opacity: 1;
+	transition:1.5s;
+}
+.footer-contact{
+	padding: 0px;
+	margin: 0px;
+}
