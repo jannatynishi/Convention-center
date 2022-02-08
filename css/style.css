@@ -1,19 +1,10 @@
-.banner img{
-	width: 1440px;
-	height: 540px;
-}
+
 .cards{
 	border-radius: 22px;
 	transition:all 1.5s ease;
 }
 .cards:hover{
-	transform: scale(1.2);
-}
-.hot-card{
-
-	background-image: url(/images/images/card-bg.jpg); 
-	background-repeat: no-repeat;
-	background-size: 310px;
+	transform: scale(1.1);
 }
 .card-font{
 	color: white;
@@ -29,9 +20,6 @@ ul li{
 .bi-arrow-right-circle-fill{
 color: rgb(190, 207, 229);
 }
-footer img{
-	width: 145px;
-}
 .happy-client img{
 	width: 100px;
 }
@@ -42,19 +30,6 @@ footer img{
 	opacity: 1;
 	transition:1.5s;
 }
-.footer-contact{
-	padding: 0px;
-	margin: 0px;
-}
 
 
-@media only screen and (max-width: 600px) {
-	.banner img{
-		width: 360px;
-		height: 300px;;
-	}
-	.hot-card{
-		background-size:560px;
-	}
-}
 
