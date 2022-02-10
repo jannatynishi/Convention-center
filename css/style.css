@@ -1,4 +1,3 @@
-
 .cards{
 	border-radius: 22px;
 	transition:all 1.5s ease;
@@ -28,7 +27,7 @@ color: rgb(190, 207, 229);
 }
 .happy-client:hover .client{
 	opacity: 1;
-	transition:1.5s;
+	transition:.5s;
 }
 
 
